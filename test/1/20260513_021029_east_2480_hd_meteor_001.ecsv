@@ -1,0 +1,67 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: datetime, datatype: string}
+# - {name: frame_index, datatype: int32}
+# - {name: ra, unit: deg, datatype: float64}
+# - {name: dec, unit: deg, datatype: float64}
+# - {name: azimuth, datatype: float64}
+# - {name: altitude, datatype: float64}
+# - {name: x_image, unit: pix, datatype: float64}
+# - {name: y_image, unit: pix, datatype: float64}
+# - {name: integrated_pixel_value, datatype: int64}
+# - {name: background_pixel_value, datatype: int64}
+# - {name: saturated_pixels, datatype: bool}
+# - {name: mag_data, datatype: float64}
+# - {name: err_minus_mag, datatype: float64}
+# - {name: err_plus_mag, datatype: float64}
+# - {name: snr, datatype: float64}
+# - {name: quality_flags, datatype: string}
+# delimiter: ','
+# meta: !!omap
+# - {obs_latitude: 42.857700}
+# - {obs_longitude: 111.571503}
+# - {obs_elevation: 1001.000000}
+# - {origin: 'DaytimeAstrometryService'}
+# - {processing_origin: 'MeteorStudio'}
+# - {station_id: 'dahongshan'}
+# - {camera_id: '-1'}
+# - {cx: 1920}
+# - {cy: 1080}
+# - {photometric_band: 'V'}
+# - {image_file: '20260513_021029_east_2480_hd.mp4'}
+# - {isodate_start_obs: '2026-05-12T18:10:36.741237'}
+# - {astrometry_number_stars: 3}
+# - {calibration_status: 'accepted_base_platepar'}
+# - {fallback_used: false}
+# - {distortion_locked: true}
+# - {matched_stars: 3}
+# - {mag_label: 'mag_data'}
+# - {no_frags: 1}
+# - {obs_az: 48.690835}
+# - {obs_ev: 23.879812}
+# - {obs_rot: -0.720841}
+# - {fov_horiz: 91.388975}
+# - {fov_vert: 51.406299}
+# schema: astropy-2.0
+datetime,frame_index,ra,dec,azimuth,altitude,x_image,y_image,integrated_pixel_value,background_pixel_value,saturated_pixels,mag_data,err_minus_mag,err_plus_mag,snr,quality_flags
+2026-05-12T18:10:36.741237,99,29.965836,+50.193384,27.038458,+10.968751,543.566,782.699,588,17,False,+12.35,-0.28,0.28,16.99,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:36.841125,100,30.870776,+50.416852,26.417646,+10.860490,531.350,783.247,2032,17,False,+11.00,-0.28,0.28,35.18,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:36.940976,101,31.849414,+50.669545,25.742277,+10.761326,518.124,783.399,3043,15,False,+10.55,-0.28,0.28,44.32,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.040873,102,33.318900,+51.004044,24.754419,+10.590300,498.829,784.040,2421,17,False,+10.79,-0.28,0.28,39.03,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.140736,103,34.453115,+51.254517,23.998236,+10.464900,484.134,784.326,3976,15,False,+10.25,-0.28,0.28,53.03,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.240608,104,35.703173,+51.509477,23.177290,+10.321477,468.242,784.696,4367,15,False,+10.14,-0.28,0.28,56.11,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.340461,105,36.856059,+51.736655,22.425834,+10.194295,453.767,784.869,5269,16,False,+9.92,-0.28,0.28,61.86,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.440331,106,38.176370,+51.969726,21.579637,+10.038672,437.528,785.226,5176,14,False,+9.94,-0.28,0.28,62.93,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.540168,107,39.284470,+52.165553,20.870827,+9.919665,424.008,785.217,6065,14,False,+9.76,-0.28,0.28,67.44,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.640025,108,40.681893,+52.381323,19.992079,+9.756239,407.310,785.436,5614,14,False,+9.83,-0.28,0.28,66.80,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.739859,109,41.876900,+52.559823,19.244353,+9.623817,393.190,785.405,6232,14,False,+9.71,-0.28,0.28,69.83,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.839698,110,43.120553,+52.727000,18.474709,+9.481456,378.725,785.418,5781,14,False,+9.78,-0.28,0.28,67.13,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:37.939527,111,44.328623,+52.878420,17.732110,+9.345032,364.845,785.336,6149,14,False,+9.71,-0.28,0.28,68.46,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:38.039378,112,45.535952,+53.003684,17.000169,+9.196255,351.218,785.476,6476,14,False,+9.64,-0.28,0.28,69.98,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:38.139207,113,47.008672,+53.148757,16.110142,+9.022983,334.764,785.395,6398,13,False,+9.64,-0.28,0.28,72.19,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:38.239033,114,48.318992,+53.261784,15.323753,+8.867998,320.321,785.274,5987,13,False,+9.70,-0.28,0.28,70.62,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:38.338845,115,49.591973,+53.362966,14.562349,+8.721967,306.433,784.998,5933,13,False,+9.70,-0.28,0.28,69.65,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:38.438660,116,50.784322,+53.442489,13.853564,+8.582033,293.580,784.754,5272,13,False,+9.82,-0.28,0.28,63.98,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:38.538490,117,52.098380,+53.504787,13.079059,+8.416233,279.608,784.676,5647,12,False,+9.74,-0.28,0.28,67.65,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"
+2026-05-12T18:10:38.638308,118,53.185911,+53.550666,12.438702,+8.283355,268.137,784.467,2465,12,False,+10.63,-0.28,0.28,44.77,"rolling_shutter_corrected|rms_3d_line_constrained_centroid|rms_3d_fast_centroid|seed_locked_measurement|seed_locked_3d_stripe_domain"

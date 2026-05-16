@@ -1,0 +1,30 @@
+{
+  "name": "meteor-astro-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent TypeScript tooling for manual astrometry event packaging and MeteorLive Cloud upload.",
+  "bin": {
+    "meteor-astro-live": "./dist/src/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && vite build",
+    "build:node": "tsc -p tsconfig.json",
+    "build:web": "vite build",
+    "api": "node ./dist/src/server/index.js",
+    "dev": "vite --host 127.0.0.1",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "@lucide/vue": "^1.16.0",
+    "@types/node": "^22.15.0",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "typescript": "^5.8.3",
+    "vite": "^8.0.13",
+    "vue": "^3.5.34"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  }
+}

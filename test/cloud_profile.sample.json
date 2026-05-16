@@ -1,0 +1,22 @@
+{
+  "profile_version": 2,
+  "config_version": 1,
+  "api_base": "https://meteorlive.net",
+  "api_prefix": "/cloud",
+  "device_api_path": "/device-api/mscloud",
+  "station_uid": "st_replace_with_station_uid",
+  "station_code": "CN000000",
+  "camera_uid": "cam_replace_with_camera_uid",
+  "camera_code": "1",
+  "device_key_id": "dk_replace_with_device_key_id",
+  "device_secret": "replace_with_device_secret",
+  "upload_policy": {
+    "allowed_codecs": ["H.264", "H.265"],
+    "allow_raw": false,
+    "fireball_allow_raw": true,
+    "max_file_size_mb": 500,
+    "daily_quota_gb": 100
+  },
+  "issued_at": 0,
+  "status": "active"
+}

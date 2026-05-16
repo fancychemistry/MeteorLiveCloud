@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-web/
+data/
+.tmp/
+*.log
+.env
+.env.*
+cloud_profile*.json
+test/cloud_profile*.json
+!test/cloud_profile.sample.json
